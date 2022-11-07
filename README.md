@@ -28,8 +28,6 @@ Acceptance Criteria: Participant register for adult clinics/lessons and particip
 
 Acceptance Criteria:  online Golf Simulator calendar feature for reserving one-hour blocks of time.
 
-The Tali Sports Center is 
-
 ### Technologies Used
 - HTML
 - CSS
