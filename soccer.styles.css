@@ -65,7 +65,7 @@ nav li a:hover {
 section#info {
     width: 100%;
     height: 420px;
-    background: url(/assets/soccerfield.jpg);
+    background: url(./assets/soccerfield.jpg);
     background-size: 100% 100%;
     padding: 0;
 }

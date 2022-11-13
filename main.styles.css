@@ -65,7 +65,7 @@ nav li a:hover {
 section#info {
     width: 100%;
     height: 420px;
-    background: url(/assets/sportscenter.jfif);
+    background: url(./assets/sportscenter.jfif);
     background-size: 100% 100%;
     padding: 0;
 }
