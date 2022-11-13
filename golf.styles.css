@@ -65,7 +65,7 @@ nav li a:hover {
 section#info {
     width: 100%;
     height: 460px;
-    background-image: url(./assets/Golfcourse.jpg);
+    background-image: url(./assets/golfcourse.jpg);
     background-size: 100% 100%;
     padding: 0;
 }
