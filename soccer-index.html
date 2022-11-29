@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Web Page</title>
+    <title>Soccer Web Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap">
-    <link rel="stylesheet" href="main-styles.css">
+    <link rel="stylesheet" href="soccer-styles.css">
 </head>
 
 <body>
@@ -25,13 +25,14 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Navigation</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#activities">Activities</a></li>
-                                <li><a class="dropdown-item" href="#about">About</a></li>
+                                <li><a class="dropdown-item" href="#adult">Adult</a></li>
+                                <li><a class="dropdown-item" href="#youth">Youth</a></li>
+                                <li><a class="dropdown-item" href="#lilkickers">Lil' Kickers</a></li>
                                 <li><a class="dropdown-item" href="#get">Contact</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#info">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                     </ul>
                 </div>
@@ -41,49 +42,68 @@
 
     <section id="info">
         <div class="infocontent">
-            <h1>Tali Sports Center</h1>
-            <h3>50,000-square-feet of epic indoor sports and play space.<br>Denver, Colorado</h3>
-            <div class="button"><a href="#activities">ACTIVITIES AT TALI</a></div>
+            <h1>Soccer at Tali Sports Center</h1>
+            <h2>All ages and ability levels are invited to participate in Tali Sports Center's soccer programs.</h2>
         </div>
     </section>
 
-    <section id="activities">
-        <h2>Activities at Tali Sports Center</h2>
-        <div class="containerActivities">
-            <div class="containerVolleyball">
-                <a href="volleyball-index.html"><img class="img-fluid" src="./assets/Volleyball.jpg" alt="Volleyball Image"></a>
-                <div class="contentVolleyball">
-                    <h2>Volleyball</h2>
-                    <p>Year-round youth and adult</p>
-                    <p>indoor volleyball programs.</p>
-                </div>
-            </div>
-            <div class="containerSoccer">
-                <a href="soccer-index.html"><img class="img-fluid" src="./assets/Soccer.jpg" alt="Soccer Image"></a>
-                <div class="contentSoccer">
-                    <h2>Soccer</h2>
-                    <p>Year-round youth and adult</p>
-                    <p>indoor soccer programs.</p>
-                </div>
-            </div>
-            <div class="containerGolf">
-                <a href="golf-index.html"><img class="img-fluid" src="./assets/Golf.jpg" alt="Golf Image"></a>
-                <div class="contentGolf">
-                    <h2>Golf</h2>
-                    <p>Full Swing Golf Simulator</p>
-                    <p>Year-round, rain or shine!</p>
-                </div>
-            </div>
+    <section id="adult">
+        <h2>Adult Soccer Programs</h2>
+        <h3>Fast-paced and fun, adult soccer at TSC provides a great way to stay both physically and socially active. Teams play 6-v-6 (including goalkeepers) on a rubber filled turf surface that promotes a brisk pace of play. Our boarded field gives players
+            extra touches on the ball.</h3>
+        <h3>From current and former college standouts to the most recreational participants, TSC strives to place all players in situations that best fit their particular competitive level.</h3>
+        <div class="column m-5">
+            <h3>Adult Soccer Sessions</h3>
+            <p>Fall: Sept-Oct <br> Winter I: Nov-Dec <br> Winter II: Jan-Feb <br> Winter III: March-April <br> Spring: May-June (Outdoor)<br> Summer: June-July (Outdoor)</p>
+            <p>8 Games at $123.45</p>
+            <div class="button"><a href="#">Register Your Team!</a></div>
+        </div>
+        <h3>Schedules</h3>
+        <h3>Tali Sports Center offers the following adult soccer leagues:</h3>
+        <div class="column m-5 text-start">
+            <p>Coed Open<br>Coed Recreational<br> Women's Open<br>Women's Recreational<br> Men's Open<br>Men's Recreational<br>Men's Over-35<br></p>
         </div>
     </section>
 
-    <section id="about">
-        <div class="aboutcontent">
-            <h2>About Tali</h2>
-            <p>The Tali Sports Center is an indoor facility encompassing a wide range of programs and activities.</p>
-            <p>Best known for volleyball and indoor soccer, TSC offers a variety of ways to get involved, including: leagues, camps, clinics, lessons, tournaments, parties and more.</p>
-            <p>Tali Sports Center is conveniently located just 3 miles southest of downtown Denver, Colorado.</p>
-            <div class="button"><a href="#">Get Directions</a></div>
+    <section id="youth">
+        <h2>Youth Soccer Programs</h2>
+        <h3>Our goal is to provide a fun and positive environment where children learn soccer and life skills through interacting with teammates, coaches, officials, and opponents - a place where a love of soccer can be developed AND sustained.</h3>
+        <div class="column m-5">
+            <h3>Youth Soccer Sessions</h3>
+            <p>Winter I: Nov-Dec <br> Winter II: Jan-Feb <br> Winter III: March-April </p>
+            <p>8 Games at $123.45</p>
+        </div>
+        <div class="column m-5">
+            <h3>Youth Soccer Leagues</h3>
+            <h3>Tali Sports Center offers the following youth soccer leagues:</h3>
+            <pre>Girls U9/10             Boys U9/10</pre>
+            <pre>Girls U11/12            Boys U11/12</pre>
+            <pre>Girls U13/14            Boys U13/14</pre>
+            <pre>Girls U15/16            Boys U15/16</pre>
+            <pre>Girls U17/18            Boys U17/18</pre>
+            <pre>HS Coed</pre>
+            <div class="button"><a href="#">Register Your Team!</a></div>
+        </div>
+        <div class="column m-5">
+            <h3>Summer Soccer Camp</h3>
+            <div class="button"><a href="#">Register for a Camp!</a></div>
+        </div>
+    </section>
+
+    <section id="lilkickers">
+        <h2>Lil' Kickers Youth Soccer Program</h2>
+        <div class="container">
+            <img src="./assets/lilkickersbanner.jfif" alt="Lil Kickers Banner">
+            <div class="button"><a href="#">Register for a class Today!</a></div>
+            <p>Step onto the field during any Lil' Kickers class and you will find it transformed into a world created just for your child. Our well trained coaches will thrill your child with 50 minutes of highly creative, high energy and age-appropriate
+                activities that serve as a great introduction to soccer, and help children master developmental milestones, appropriate for their age.</p>
+            <p>Because Lil' Kickers is first and foremost a child development program our purpose is really to help children mature on all levels. Our program focuses on helping children build strong physical, intellectual and emotional skills that will
+                help them be successful on and off the soccer field. We believe in teaching children in ways that suit their developmental level. So, you won't see adult-like skill drills in our classes, but you will see teaching methods specifically
+                designed to create an atmosphere that is effective and fun. You will also see happy, confident and sweaty kids who are eager to learn and want to keep coming back for more.</p>
+            <p>Whether your child is new to soccer or has already developed a love for the game, the progressive nature of Lil' Kickers offers a place for children at every level. Our convenient class times provide families options to accommodate multiple
+                children and busy schedules.</p>
+            <p>In addition to providing one of the area's only soccer programs for ages 5 and younger, Lil' Kickers also helps develop solid fundamental skills for players ages 6-9. Enroll your child today, and find out why Lil' Kickers is nationally renowned
+                as well as the highest quality child development program in the country.</p>
         </div>
     </section>
 
