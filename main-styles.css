@@ -36,27 +36,30 @@ nav li a:hover {
 }
 
 .dropdown-menu {
-    background-color: tan;
+    background-color: beige;
 }
 
 #info {
     width: 100%;
     height: 375px;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./assets/sportscenter.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./assets/sportscenter.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 0;
 }
 
 .infocontent {
     width: 100%;
+    height: auto;
     margin: auto;
     padding-top: 80px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
-#info h1 {
+#info h1,
+#infoG h1,
+#infoS h1,
+#infoV h1 {
     font-size: 65px;
     margin-top: 35px;
     margin-bottom: 30px;
@@ -64,36 +67,16 @@ nav li a:hover {
     line-height: 1em;
 }
 
-#info h3 {
-    width: 600px;
+#info h2,
+#infoG h2,
+#infoS h2,
+#infoV h2 {
+    width: 100%;
     margin: auto;
     margin-bottom: 50px;
     font-size: 22px;
     color: rgb(255, 255, 255);
     font-family: 'Oleo Script Swash Caps', cursive;
-}
-
-#info .button {
-    width: 175px;
-    height: 35px;
-    background-color: black;
-    text-align: center;
-    padding: 3px;
-    border: 1px solid rgb(150, 150, 150);
-    font-size: 1.5em;
-    cursor: pointer;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-#info .button a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-#info .button:hover {
-    background: linear-gradient(#969b9e, #8b8b8f);
 }
 
 #activities {
@@ -134,7 +117,7 @@ nav li a:hover {
 #about {
     width: 100%;
     height: auto;
-    background: tan;
+    background: teal;
     padding: 35px 0;
 }
 
@@ -256,19 +239,19 @@ footer {
     font-size: 1.5em;
 }
 
-.activities {
+.TSCemail {
     width: 250px;
     height: 20px;
     margin-top: 20px;
     font-size: 1.5em;
 }
 
-.activities a {
+.TSCemail a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.activities a:hover {
+.TSCemail a:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
@@ -277,6 +260,369 @@ footer {
     width: 1140px;
     height: 100%;
     margin: 0 auto;
+}
+
+
+/* THESE RULES APPLY TO THE Golf Web Page */
+
+#infoG {
+    width: 100%;
+    height: 375px;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./assets/golfcourse.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+
+#activitiesG {
+    width: 100%;
+    height: auto;
+    background: teal;
+    padding-top: 35px;
+}
+
+.container img {
+    width: 40%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-column1 h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+
+#activities p {
+    width: 100%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+
+.column-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.text-column1,
+.text-column2 {
+    font-size: 1.7rem;
+    margin: 20px;
+    width: 33vw;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.activitiesvideo {
+    display: flex;
+    width: 225px;
+    height: 300px;
+    float: right;
+    text-align: center;
+}
+
+.column-container .account {
+    width: 300px;
+    height: auto;
+    float: right;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 1.7rem;
+}
+
+#activitiesG .button {
+    width: 175px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid rgb(150, 150, 150);
+    font-size: 1em;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#activitiesG .button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#activitiesG .button:hover {
+    background: linear-gradient(#969b9e, #8b8b8f);
+}
+
+
+/* THESE RULES APPLY TO THE Soccer Web Page */
+
+#infoS {
+    width: 100%;
+    height: 375px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./assets/soccerfield.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+
+#adultS {
+    width: 100%;
+    height: auto;
+    background: teal;
+    padding: 5px 0;
+}
+
+#adultS h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#adultS h3 {
+    font-size: 25px;
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 5px auto 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.column p {
+    font-size: 1.7em;
+    padding: 0;
+    margin: 15px auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.column .button {
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid rgb(150, 150, 150);
+    font-size: 1.7em;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.column .button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.column .button:hover {
+    background: linear-gradient(#969b9e, #8b8b8f);
+}
+
+#youthS {
+    width: 100%;
+    height: auto;
+    background: maroon;
+    padding: 5px;
+}
+
+#youthS h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#youthS h3 {
+    font-size: 25px;
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 5px auto 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.column p,
+.column pre {
+    font-size: 1.7em;
+    text-align: center;
+    padding: 0;
+    margin: 15px auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#lilkickersS {
+    width: 100%;
+    height: auto;
+    background: teal;
+    color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    padding: 5px;
+}
+
+#lilkickersS h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#lilkickersS img {
+    width: 65%;
+    height: auto;
+}
+
+#lilkickersS .button {
+    width: 250px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid rgb(150, 150, 150);
+    font-size: 1.7em;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#lilkickersS .button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#lilkickersS .button:hover {
+    background: linear-gradient(#969b9e, #8b8b8f);
+}
+
+#lilkickersS p {
+    font-size: 1.7em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+/* THESE RULES APPLY TO THE Volleyball Web Page */
+
+#infoV {
+    width: 100%;
+    height: 375px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./assets/volleyballcourts.jfif);
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+
+#adultV {
+    width: 100%;
+    height: auto;
+    background: maroon;
+    background-size: 100% 100%;
+    padding: 5px 0;
+}
+
+#adultV h2,
+#youthV h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#adultV h3,
+#youthV h3 {
+    font-size: 2em;
+    padding: 0;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+
+.container-image {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.container-image img {
+    width: 33vw;
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+
+.container-text .text-column {
+    width: 75vw;
+}
+
+.text-colummn h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.text-column p {
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.container .button {
+    width: 175px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid rgb(150, 150, 150);
+    font-size: 1.7em;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container .button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container .button:hover {
+    background: linear-gradient(#969b9e, #8b8b8f);
+}
+
+#youthV {
+    width: 100%;
+    height: auto;
+    background: teal;
+    background-size: 100% 100%;
+    padding: 5px 0;
 }
 
 
@@ -303,6 +649,10 @@ footer {
     footer {
         width: 100%;
     }
+    #info h2,
+    #infoG h2 {
+        font-size: 20px;
+    }
     .container-image {
         width: 48%;
     }
@@ -312,6 +662,86 @@ footer {
     }
     .container-text .text-column {
         width: 75vw;
+    }
+    .container .button {
+        margin: 20px 150px;
+    }
+    /* THESE RULES APPLY TO THE Golf Web Page */
+    #infoG,
+    #activitiesG {
+        width: 100%;
+    }
+    .container img {
+        width: 80vw;
+        height: 60px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .center {
+        display: block;
+        margin-left: 40px;
+        margin-right: auto;
+        width: 25%;
+    }
+    .column-container .text-column1,
+    .column-container .text-column1 p {
+        width: 90vw;
+    }
+    .activitiesvideo {
+        width: 100%;
+        justify-content: start;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    .column-container .text-column2 {
+        width: 45vw;
+    }
+    .container p {
+        width: 45vw;
+    }
+    .column-container .account {
+        width: 45vw;
+    }
+    .account .button {
+        margin-left: 10px;
+    }
+    /* THESE RULES APPLY TO THE Soccer Web Page */
+    #infoS,
+    #adultS,
+    #youthS,
+    #lilkickersS {
+        width: 100%;
+    }
+    #lilkickersS img {
+        width: 75vw;
+    }
+    #lilkickersS p {
+        width: 90vw;
+    }
+    #lilkickersS .button {
+        margin: 20px 150px;
+    }
+    /* THESE RULES APPLY TO THE Volleyball Web Page */
+    #infoV,
+    #adultV,
+    #youthV {
+        width: 100%;
+    }
+    .container-image {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .container-image img {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+    }
+    .container-image .text-column {
+        margin: 10px auto;
+    }
+    .container-text .text-column p {
+        width: 95vw;
     }
     .container .button {
         margin: 20px 150px;
@@ -362,5 +792,82 @@ footer {
     }
     .container-text .text-column {
         width: 325vw;
+    }
+    /* THESE RULES APPLY TO THE Golf Web Page */
+    #infoG,
+    #activitiesG {
+        width: 1140px;
+    }
+    .container img {
+        width: 150vw;
+        height: 60px;
+        margin: 25px auto;
+    }
+    .column-container .text-column1 p,
+    .column-container .text-column2 p,
+    .column-container .account p {
+        width: 325vw;
+        font-size: 1.3em;
+    }
+    .activitiesvideo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    .column-container .account {
+        width: 325vw;
+        text-align: center;
+        margin: auto;
+    }
+    .account .button {
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* THESE RULES APPLY TO THE Soccer Web Page */
+    #infoS,
+    #adultS,
+    #youthS,
+    #lilkickersS {
+        width: 1140px;
+    }
+    #lilkickersS img {
+        width: 90vw;
+    }
+    #lilkickersS p {
+        width: 335vw;
+    }
+    #lilkickersS .button {
+        margin: 20px auto;
+    }
+    /* THESE RULES APPLY TO THE Volleyball Web Page */
+    #infoV,
+    #adultV,
+    #youthV {
+        width: 1140px;
+    }
+    .container-image {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .container-image img {
+        width: 50%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .container-image .text-column {
+        width: 90vw;
+        margin: 10px auto;
+    }
+    .container-text .text-column p {
+        width: 335vw;
+    }
+    .container p {
+        width: 75vw;
+    }
+    .container .button {
+        margin: 20px auto;
     }
 }
